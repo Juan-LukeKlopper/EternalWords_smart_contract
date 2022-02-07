@@ -1,15 +1,6 @@
-# Basic Sample Hardhat Project
+# This is a proudly open-source project that was build using buildspace's tutorial as a guide
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This is a solidity contract which will allow users to wave at me while sending a message, The contract has a function which will then generaate a psudorandom number, if this number is below or equals to fifty the sender will receive 0.0001 ETH on the rinkeby testnet
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+Contract deployed at address: 
 ```
